@@ -1,0 +1,89 @@
+/* body {
+    background-image: url('/logos/fifa-23-pc-spel-cover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+} */
+.footer {
+  position: relative !important;
+}
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid #005391;
+  border-radius: 6px;
+  background-color: white;
+}
+.choice-container p {
+  margin-bottom: 0;
+  border-radius: 4px 0 0 4px;
+}
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #005391;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #005391;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #38b434;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+.btn {
+  background-color: white !important;
+  margin-bottom: 0.5rem;
+  /* Blue background */
+  border: 0.1rem solid #005391 !important;
+  /* Remove borders */
+  margin-right: 0.5rem;
+  /* Some padding */
+  font-size: 16px;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+  border-radius: 5px 5px 0;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #005391;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+div img {
+  height: 200px;
+  width: auto;
+}
