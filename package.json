@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "random-token": "^0.0.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "fifa-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benn7445/fifa-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benn7445/fifa-project/issues"
+  },
+  "homepage": "https://github.com/Benn7445/fifa-project#readme",
+  "description": ""
+}
